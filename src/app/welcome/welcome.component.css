@@ -1,3 +1,6 @@
 .flex-justify-center{
     justify-content: center;
 }
+.flex-align-item-end{
+    align-self: flex-end;
+}

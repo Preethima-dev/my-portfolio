@@ -1,7 +1,4 @@
 import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { NgImageSliderComponent } from 'ng-image-slider';
-import { ImageListService } from '../imageList.service'
 
 @Component({
   selector: 'app-my-logos',
@@ -9,16 +6,9 @@ import { ImageListService } from '../imageList.service'
   styleUrls: ['./my-logos.component.css']
 })
 export class MyLogosComponent implements OnInit {
-  //filterImage = [];
-  //type = 'logo';
-  //@Output() type = new EventEmitter<string>();
-  
- constructor(private imagelist: ImageListService) {}
+   
+ constructor() {}
 
- ngOnInit(): void {
-  //this.filterImage = this.imagelist.getImages();
-  //this.type.emit('logo');
-  
- }
+ ngOnInit(): void { }
 
 }

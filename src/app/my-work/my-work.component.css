@@ -3,29 +3,23 @@
     color: #000000;
     font-weight: 600;
 }
-
 .m-1{
     margin: 0px 5px;
 }
-
 .btn:first-child{
     margin: 0;
 }
-
 .home-link{
     color: #ddcdeb;
     text-decoration: underline;
     font-weight: bold;
 }
-
 .justify-space-between{
     justify-content: space-between;
 }
-
 .p-end{
     padding: 0 15px;
 }
-
 .portfolio-bg{
     background: #222020;
 }

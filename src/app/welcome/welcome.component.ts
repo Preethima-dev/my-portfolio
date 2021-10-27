@@ -11,9 +11,7 @@ export class WelcomeComponent implements OnInit {
   constructor(private router: Router,
     private route:ActivatedRoute) { }
 
-  ngOnInit(): void {
-    //this.router.navigate(['/'])
-  }
+  ngOnInit(): void { }
 
   onMyWork(){
     this.router.navigate(['mywork'], {'relativeTo':this.route})

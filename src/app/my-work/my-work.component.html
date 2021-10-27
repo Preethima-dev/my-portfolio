@@ -1,0 +1,18 @@
+
+<div class="content-container portfolio-bg">
+    <div class="p-end">
+    <div class="row justify-space-between p-t-2"> 
+        <div class="button-group">
+            <button class="btn"  (click) ="onAllDesign()" routerLink="alldesigns" routerLinkActive = "active" include [routerLinkActiveOptions] = "{exact: true}">All</button>
+            <button class="btn"  (click)="onLogos()" routerLink="logos" routerLinkActive = "active" include [routerLinkActiveOptions] = "{exact: true}" >Logos</button>
+            <button class="btn"  (click) ="onTemplates()" routerLink="templates" routerLinkActive = "active" include [routerLinkActiveOptions] = "{exact: true}">Templates</button>
+        </div>
+        <a routerLink="/" class="home-link">Back to Home</a>
+    </div>
+    </div>
+
+    <div class="image-container p-t-2">
+        <router-outlet></router-outlet>
+    </div>
+   
+</div>

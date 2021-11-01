@@ -8,63 +8,9 @@ export class ImageListService{
   
   imageObject= [
     {
-      image: 'assets/images/template/chatapp.jpg',
-      thumbImage: 'assets/images/template/chatapp.jpg',
-      alt: 'Chat App',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Dashboard.png',
-      thumbImage: 'assets/images/template/Dashboard.png',
-      alt: 'MTI Dashboard',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/jatadhari.jpg',
-      thumbImage: 'assets/images/template/jatadhari.jpg',
-      alt: 'Jatadhari',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/secureme-layout.jpg',
-      thumbImage: 'assets/images/template/secureme-layout.jpg',
-      alt: 'Secure Me',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Family Linker.jpg',
-      thumbImage: 'assets/images/template/Family Linker.jpg',
-      alt: 'Family Linker',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Form page.jpg',
-      thumbImage: 'assets/images/template/Form page.jpg',
-      alt: 'UniTalent Form',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Jatadhari-1.jpg',
-      thumbImage: 'assets/images/template/Jatadhari-1.jpg',
-      alt: 'Jatadhari',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Listing Page.jpg',
-      thumbImage: 'assets/images/template/Listing Page.jpg',
-      alt: 'UniTalent List',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/Login  screen.jpg',
-      thumbImage: 'assets/images/template/Login  screen.jpg',
-      alt: 'UniTalent Login',
-      category: 'template'
-    },
-    {
-      image: 'assets/images/template/psp-layout.jpg',
-      thumbImage: 'assets/images/template/psp-layout.jpg',
-      alt: 'alt of image',
+      image: 'assets/images/template/patronsetech.jpg',
+      thumbImage: 'assets/images/template/patronsetech.jpg',
+      alt: 'PatronsEtech',
       category: 'template'
     },
     {
@@ -80,9 +26,63 @@ export class ImageListService{
       category: 'template'
     },
     {
-      image: 'assets/images/template/patronsetech.jpg',
-      thumbImage: 'assets/images/template/patronsetech.jpg',
-      alt: 'PatronsEtech',
+      image: 'assets/images/template/jatadhari.jpg',
+      thumbImage: 'assets/images/template/jatadhari.jpg',
+      alt: 'Jatadhari',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/Family Linker.jpg',
+      thumbImage: 'assets/images/template/Family Linker.jpg',
+      alt: 'Family Linker',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/Jatadhari-1.jpg',
+      thumbImage: 'assets/images/template/Jatadhari-1.jpg',
+      alt: 'Jatadhari',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/psp-layout.jpg',
+      thumbImage: 'assets/images/template/psp-layout.jpg',
+      alt: 'alt of image',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/chatapp.jpg',
+      thumbImage: 'assets/images/template/chatapp.jpg',
+      alt: 'Chat App',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/Dashboard.png',
+      thumbImage: 'assets/images/template/Dashboard.png',
+      alt: 'MTI Dashboard',
+      category: 'template'
+    },    
+    {
+      image: 'assets/images/template/secureme-layout.jpg',
+      thumbImage: 'assets/images/template/secureme-layout.jpg',
+      alt: 'Secure Me',
+      category: 'template'
+    },    
+    {
+      image: 'assets/images/template/Form page.jpg',
+      thumbImage: 'assets/images/template/Form page.jpg',
+      alt: 'UniTalent Form',
+      category: 'template'
+    },    
+    {
+      image: 'assets/images/template/Listing Page.jpg',
+      thumbImage: 'assets/images/template/Listing Page.jpg',
+      alt: 'UniTalent List',
+      category: 'template'
+    },
+    {
+      image: 'assets/images/template/Login  screen.jpg',
+      thumbImage: 'assets/images/template/Login  screen.jpg',
+      alt: 'UniTalent Login',
       category: 'template'
     },
     {
@@ -174,7 +174,8 @@ export class ImageListService{
       thumbImage: 'assets/images/logos/patrons-etech.jpg',
       alt: 'Patrons Etech',
       category:'logo'
-    }    
+    },
+      
   ];
 
   getImages(){

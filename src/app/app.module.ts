@@ -12,6 +12,7 @@ import { AllDesignsComponent } from './my-work/all-designs/all-designs.component
 import { ImageListService } from './my-work/imageList.service';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MyWorkComponent } from './my-work/my-work.component';
+import { LiveSiteComponent } from './my-work/live-site/live-site.component';
 
 const appRoutes: Routes = [
   {path: '',component:WelcomeComponent, pathMatch: 'full'},
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
     {path:'alldesigns', component:AllDesignsComponent},
     {path: 'logos', component:MyLogosComponent},
     {path: 'templates', component:MyTemplatesComponent},
+    {path: 'livewebsites', component: LiveSiteComponent}
   ]}  
 ];
 
@@ -30,6 +32,7 @@ const appRoutes: Routes = [
     MyLogosComponent,
     MyTemplatesComponent,
     AllDesignsComponent,
+    LiveSiteComponent,
   ],
   imports: [
     BrowserModule,

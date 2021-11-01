@@ -32,4 +32,8 @@ export class MyWorkComponent implements OnInit {
     this.router.navigate(['templates'],{relativeTo: this.route});
     this.imagelist.getCategory('template');
   }
+
+  onLiveWebsites(){
+    this.router.navigate(['livewebsites'],{relativeTo: this.route});
+  }
 }

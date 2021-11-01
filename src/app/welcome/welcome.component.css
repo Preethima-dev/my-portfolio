@@ -4,3 +4,67 @@
 .flex-align-item-end{
     align-self: flex-end;
 }
+.image-position{
+    width: 23vw;
+    height: auto;
+    position: absolute;
+    left: 4em;
+    bottom: -50px;
+}
+.content-postion{
+    padding-left: 21vw;
+    height: auto;
+    padding-right: 7vw;
+}
+
+@media screen and (max-width: 767px){
+    .content-postion {
+        width: 100%;
+        padding: 0;
+    }
+    .image-position {
+        width: 44vw;
+        left: initial;
+        right: 1em;
+        bottom: -40px;
+        transform: scaleX(-1);
+    }
+}
+
+@media screen and (max-width: 360px){
+    p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-height: 480px){
+    .image-position {
+        width: 34vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .image-position{
+        width: 23vw;
+        height: auto;
+    }
+  }
+  
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .content-container {
+        margin: 0px auto;
+        padding: 5em 8em;
+    }
+    .content-postion {
+        width: 100%;
+        padding: 0;
+    }
+    .image-position{
+        width: 43vw;
+        left: initial;
+        bottom: -50px;
+        transform: scaleX(-1);
+        right: 1vw;
+    }
+}
+

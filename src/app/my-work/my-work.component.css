@@ -22,4 +22,6 @@
 }
 .portfolio-bg{
     background: #222020;
+    overflow: auto;
+    height: 100vh;
 }
